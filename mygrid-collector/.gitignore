@@ -1,0 +1,18 @@
+### Rust ###
+/target
+
+### IntelliJ ###
+.idea
+*.iml
+*.ipr
+*.iws
+
+### Visual Studio Code ###
+.vscode/*
+
+### Visual Studio ###
+.vs
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

@@ -1,0 +1,23 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'java'
+}
+
+project.ext.version = '1.0.0-SNAPSHOT'
+project.ext.package = 'com.yakovliam.mygridbridge'
+
+group 'com.yakovliam'
+version project.ext.version
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+shadowJar {
+    archiveBaseName.set('mygrid-bridge')
+    archiveClassifier.set('')
+    archiveVersion.set(project.ext.version)
+}
