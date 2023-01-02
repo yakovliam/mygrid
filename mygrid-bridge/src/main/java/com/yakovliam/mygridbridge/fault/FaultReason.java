@@ -1,0 +1,12 @@
+package com.yakovliam.mygridbridge.fault;
+
+/**
+ * The reason for a fault.
+ *
+ * @author Jacob C.
+ */
+public enum FaultReason {
+  INSULATOR_FAILURE, LIGHTNING_SURGE, UNBALANCED_VOLTAGE, UNBALANCED_CURRENT, VOLTAGE_DROP,
+  STABILITY_FAILURE, TRANSMISSION_LINE_MECHANICAL_FAILURE, OVER_VOLTAGE, UNDER_FREQUENCY,
+  POWER_REVERSAL, TEMPERATURE_RISE
+}
